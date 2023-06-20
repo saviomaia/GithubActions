@@ -20,4 +20,4 @@ jobs:
           aws-region: sa-east-1
 
       - name: Add file to S3
-        run: aws s3 cp index.html s3://savio-github-actions-sit
+        run: aws s3 cp index.html s3://savio-github-actions-sitet
