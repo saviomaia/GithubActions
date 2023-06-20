@@ -20,6 +20,6 @@ jobs:
           aws-region: sa-east-1
 
       - name: Add file to S3
-      env:
+        env:
         BUCKET_NAME: savio-github-actions-site
         run: aws s3 cp index.html s3://$BUCKET_NAME
